@@ -1,0 +1,25 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+html {
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    animation: move 10s linear 2s infinite normal;
+}
+
+@keyframes move {
+    from {
+        transform: translate(120%);
+    }
+
+    to {
+        transform: translate(-80%);
+    }
+}
