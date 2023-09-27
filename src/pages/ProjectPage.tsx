@@ -24,6 +24,11 @@ const ProjectPage = () => {
       window.open(projectsInfo[id].github, "_blank");
     }
 
+    //move to linkedin
+    const handleMoveToLinkedIn = () => {
+      window.open(projectsInfo[id].linkedin, "_blank");
+    }
+
     //return
     return (
       <>
@@ -39,7 +44,7 @@ const ProjectPage = () => {
               View Source Code on Github
             </button> <br/>
 
-            <button className="bg-indigo-600 m-2 py-2 px-4 rounded-full">
+            <button onClick={handleMoveToLinkedIn} className="bg-indigo-600 m-2 py-2 px-4 rounded-full">
               View Project on LinkedIn
             </button>
           </div>

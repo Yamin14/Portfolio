@@ -1,8 +1,8 @@
 
 import Quote from '../components/Quote';
 import Footer from '../components/Footer';
-import Projects from '../components/Projects';
 import { NavLink } from 'react-router-dom';
+import Logo from '../assets/yaminLogoCircle.jpg';
 
 const HomePage = () => {
   return (
@@ -10,6 +10,12 @@ const HomePage = () => {
       <Quote />
 
       <section>
+
+          {/* Intro */}
+          <div className='mt-4 flex justify-center items-center'>
+            <img src={Logo} className='w-20 text-center' />
+            <h1 className='text-center font-serif text-2xl ml-4'>Welcome to Kazmi Developers!</h1>
+          </div>
         
           {/* Skills Heading */}
           <div className='flex flex-col items-center m-2 mt-4'>

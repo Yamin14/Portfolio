@@ -10,6 +10,12 @@ html {
     color: white;
 }
 
+ul li::before {
+    content: "\2022";
+    color: red;
+    margin-right: 5px;
+}
+
 .footer {
     animation: move 10s linear 2s infinite normal;
 }

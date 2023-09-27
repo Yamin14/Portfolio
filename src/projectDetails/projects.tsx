@@ -1,7 +1,7 @@
 
 import { descriptions } from "./descriptions";
 import {titles} from './titles';
-import { github_links } from "./links";
+import { github_links, linkedin_links } from "./links";
 
 //images
 const images = [];
@@ -17,6 +17,7 @@ export const projectsInfo = titles.map((t, i) => {
         title: titles[i],
         desc: descriptions[i],
         image: `../../public/Images/image (${i}).png`,
-        github: github_links[i]
+        github: github_links[i],
+        linkedin: linkedin_links[i]
     }
 });
