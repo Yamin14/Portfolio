@@ -11,8 +11,8 @@ html {
 }
 
 ul li::before {
-    content: "\2022";
-    color: red;
+    content: "\25C9";
+    color: white;
     margin-right: 5px;
 }
 
@@ -26,6 +26,12 @@ ul li::before {
     }
 
     to {
-        transform: translate(-80%);
+        transform: translate(-120%);
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .footer {
+        animation: move 20s linear 2s infinite normal;
     }
 }

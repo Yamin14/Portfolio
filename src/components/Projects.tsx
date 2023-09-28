@@ -24,7 +24,7 @@ const Projects = () => {
                 <div className='text-center border-b-2 border-blue-500 rounded-3xl w-10 mb-4'></div>
             </div>
 
-            <div className='grid grid-cols-2 gap-2 grow'>
+            <div className='grid grid-cols-2 gap-2 grow lg:gap-8'>
                 {projects}
             </div>
         </section>

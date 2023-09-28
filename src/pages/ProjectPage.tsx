@@ -35,16 +35,16 @@ const ProjectPage = () => {
         <BackButton prev="/projects"/>
 
         <div>
-          <h1 className="text-center font-medium text-2xl">{projectsInfo[id].title}</h1> 
-          <p className="p-2"><b>Description:</b>   {projectsInfo[id].desc}</p>
+          <h1 className="text-center font-medium text-2xl lg:text-3xl">{projectsInfo[id].title}</h1> 
+          <p className="p-2 lg:text-xl"><b>Description:</b>   {projectsInfo[id].desc}</p>
 
           {/* Github and LinkedIn Link*/}
-          <div className="text-center m-2">
-            <button onClick={handleMoveToGitHub} className="bg-indigo-600 m-2 py-2 px-4 rounded-full">
+          <div className="text-center m-2 lg:text-2xl">
+            <button onClick={handleMoveToGitHub} className="bg-indigo-600 m-2 py-2 px-4 rounded-full lg:px-8 lg:py-4">
               View Source Code on Github
             </button> <br/>
 
-            <button onClick={handleMoveToLinkedIn} className="bg-indigo-600 m-2 py-2 px-4 rounded-full">
+            <button onClick={handleMoveToLinkedIn} className="bg-indigo-600 m-2 py-2 px-4 rounded-full lg:px-8 lg:py-4">
               View Project on LinkedIn
             </button>
           </div>
