@@ -9,7 +9,7 @@ import {projectsInfo} from "../projectDetails/projects";
 const ProjectPage = () => {
 
     const url = useParams();
-    const id = parseInt(url.id);
+    const id = Number(url.id);
     const nav = useNavigate();
 
     //wrong path

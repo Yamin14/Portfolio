@@ -2,7 +2,7 @@
 import Quote from '../components/Quote';
 import Footer from '../components/Footer';
 import { NavLink } from 'react-router-dom';
-import Logo from '../assets/yaminLogoCircle.jpg';
+import Logo from '../assets/yaminLogoCircle.png';
 
 const HomePage = () => {
   return (
