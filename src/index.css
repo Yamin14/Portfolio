@@ -35,3 +35,10 @@ ul li::before {
         animation: move 20s linear 2s infinite normal;
     }
 }
+
+@media screen and (max-width: 475px) {
+    .footer {
+        font-size: 0.7rem;
+        padding: 2px;
+    }
+}

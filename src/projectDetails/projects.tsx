@@ -15,7 +15,7 @@ export const projectsInfo = titles.map((t, i) => {
     return {
         title: t,
         desc: descriptions[i],
-        image: `public/images/image (${i}).png`,
+        image: `/public/images/image (${i}).png`,
         github: github_links[i],
         linkedin: linkedin_links[i]
     }
