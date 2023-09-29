@@ -14,7 +14,7 @@ const HomePage = () => {
           {/* Intro */}
           <div className='mt-4 flex justify-center items-center'>
             <img src={Logo} className='w-20 text-center lg:w-40' />
-            <h1 className='text-center font-serif text-2xl ml-4 lg:text-4xl'>Welcome to Kazmi Developers!</h1>
+            <h1 className='text-center font-serif text-2xl ml-2 lg:ml-4 lg:text-4xl'>Welcome to Kazmi Developers!</h1>
           </div>
         
           {/* Skills Heading */}
