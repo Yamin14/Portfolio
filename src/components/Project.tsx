@@ -15,7 +15,7 @@ const Project = ({title, image, index}: Props) => {
           <Link to={`/projects/${index}`}>
 
             <div className='flex flex-col justify-center'>
-              <img src={image} className='h-40 md:h-72 lg:h-80'/>
+              <img src={image} alt="Sorry! Image Not Available" className='h-40 md:h-72 lg:h-80'/>
               <h1 className='font-medium text-center mt-2 lg:text-2xl'>{title}</h1>
             </div>
 
