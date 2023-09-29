@@ -30,7 +30,7 @@ const Projects = () => {
         </section>
 
         {/* Empty Space */}
-        <div className='my-4'>&nbsp;</div>
+        <div className='my-4 md:my-6 lg:my-8'>&nbsp;</div>
     </>
   )
 }
